@@ -3,10 +3,13 @@
     padding: 0;
 }
 
-html,
-body {
+html {
     min-width: 940px;
     scroll-behavior: smooth;
+}
+
+body {
+    min-width: 940px;
 }
 
 body {
@@ -663,9 +666,10 @@ a {
     }
 }
 
-* {
+
+/* * {
     box-sizing: border-box;
-}
+} */
 
 
 /* body {
@@ -681,9 +685,9 @@ a {
     width: 230px !important;
     height: 290px;
     border-radius: 20px;
-    margin-left: 40px;
-    margin-right: 0px !important;
-    margin-bottom: 20px !important;
+    margin-left: 40px !important;
+    /* margin-right: 0px !important; */
+    /* margin-bottom: 20px !important; */
 }
 
 .margen {
@@ -702,7 +706,7 @@ a {
 
 .slide {
     width: 30vw;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     animation-name: slide;
     animation-duration: 20s;
     animation-iteration-count: infinite;
