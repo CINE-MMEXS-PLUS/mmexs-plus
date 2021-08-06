@@ -16,7 +16,7 @@
 @media only screen and (max-width: 1500px) {
     .overlay {
         position: fixed;
-        top: -30px;
+        top: -230px;
         bottom: 0;
         left: 0;
         right: 0;
@@ -52,8 +52,8 @@
 } */
 
 #popupBody {
-    width: 33.5%;
-    height: 410px !important;
+    width: 39%;
+    height: 530px !important;
     padding: 1%;
     border-radius: 15px;
     box-shadow: 0 0 5px #CCC;
@@ -61,8 +61,40 @@
     position: relative;
     margin: 20% auto;
     transition: all 5s ease-in-out;
-    background-image: url(../images/baners/pop_up.jpg);
+    background-image: url(../images/baners/pop_up_web.jpg);
 }
+
+
+/* 
+@media only screen and (max-width: 700px) {
+    #popupBody {
+        width: 50%;
+        height: 410px !important;
+        padding: 1%;
+        border-radius: 15px;
+        box-shadow: 0 0 5px #CCC;
+        background: #FFF;
+        position: relative;
+        margin: 20% auto;
+        transition: all 5s ease-in-out;
+        background-image: url(../images/baners/pop_u.jpg);
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    #popupBody {
+        width: 50%;
+        height: 800px !important;
+        padding: 1%;
+        border-radius: 15px;
+        box-shadow: 0 0 5px #CCC;
+        background: #FFF;
+        position: relative;
+        margin: 20% auto;
+        transition: all 5s ease-in-out;
+        background-image: url(../images/baners/pop_up.jpg);
+    }
+} */
 
 #popup:target {
     visibility: hidden;
