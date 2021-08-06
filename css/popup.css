@@ -29,10 +29,10 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .overlay {
         position: fixed;
-        top: 0;
+        top: 40px;
         bottom: 0;
         left: 0;
         right: 0;
