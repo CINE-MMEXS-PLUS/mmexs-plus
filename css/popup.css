@@ -1,7 +1,7 @@
 @charset "utf-8";
 .overlay {
     position: fixed;
-    top: -22%;
+    top: -10%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -21,7 +21,7 @@
 
 #popupBody {
     width: 33.5%;
-    height: 435px !important;
+    height: 410px !important;
     padding: 1%;
     border-radius: 15px;
     box-shadow: 0 0 5px #CCC;
