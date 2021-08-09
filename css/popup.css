@@ -12,11 +12,10 @@
     /* margin-top: 0; */
 }
 
-
-/* @media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1010px) {
     .overlay {
         position: fixed;
-        top: -230px;
+        top: 0;
         bottom: 0;
         left: 0;
         right: 0;
@@ -24,9 +23,9 @@
         transition: opacity 400ms;
         visibility: visible;
         opacity: 1;
-        margin-top: 30px;
+        /* margin-top: 30px; */
     }
-} */
+}
 
 
 /* @media only screen and (max-width: 700px) {
