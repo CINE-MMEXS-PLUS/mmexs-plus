@@ -12,7 +12,7 @@
     /* margin-top: 0; */
 }
 
-@media only screen and (max-width: 1010px) {
+@media only screen and (max-width: 1000px) {
     .overlay {
         position: fixed;
         top: 0;
@@ -28,10 +28,10 @@
 }
 
 
-/* @media only screen and (max-width: 700px) {
+/* @media only screen and (max-width: 550px) {
     .overlay {
         position: fixed;
-        top: 0px;
+        top: auto;
         bottom: 0;
         left: 0;
         right: 0;
@@ -39,19 +39,12 @@
         transition: opacity 400ms;
         visibility: visible;
         opacity: 1;
-        margin-top: 0;
     }
 } */
 
-
-/* .overlay:target {
-    visibility: visible;
-    opacity: 1;
-} */
-
 #popupBody {
-    width: 39%;
-    height: 530px !important;
+    width: 42.2%;
+    height: 500px !important;
     padding: 1%;
     top: 40px;
     border-radius: 15px;
@@ -63,12 +56,10 @@
     background-image: url(../images/baners/pop_up_web.jpg);
 }
 
-
-/* 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
     #popupBody {
         width: 50%;
-        height: 410px !important;
+        height: 500px !important;
         padding: 1%;
         border-radius: 15px;
         box-shadow: 0 0 5px #CCC;
@@ -76,24 +67,9 @@
         position: relative;
         margin: 20% auto;
         transition: all 5s ease-in-out;
-        background-image: url(../images/baners/pop_u.jpg);
+        background-image: url(../images/baners/pop_up_web.jpg);
     }
 }
-
-@media only screen and (max-width: 1500px) {
-    #popupBody {
-        width: 50%;
-        height: 800px !important;
-        padding: 1%;
-        border-radius: 15px;
-        box-shadow: 0 0 5px #CCC;
-        background: #FFF;
-        position: relative;
-        margin: 20% auto;
-        transition: all 5s ease-in-out;
-        background-image: url(../images/baners/pop_up.jpg);
-    }
-} */
 
 #popup:target {
     visibility: hidden;
@@ -109,7 +85,7 @@
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    color: #F00;
+    color: rgb(252, 252, 252);
     transition: all 200ms;
 }
 
