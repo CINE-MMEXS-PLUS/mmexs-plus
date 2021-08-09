@@ -1,8 +1,7 @@
 @charset "utf-8";
-
-/*.overlay {
+.overlay {
     position: fixed;
-    top: -25%;
+    top: -38%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -10,10 +9,11 @@
     transition: opacity 400ms;
     visibility: visible;
     opacity: 1;
+    /* margin-top: 0; */
 }
-*/
 
-@media only screen and (max-width: 1500px) {
+
+/* @media only screen and (max-width: 1500px) {
     .overlay {
         position: fixed;
         top: -230px;
@@ -23,27 +23,26 @@
         background: rgba(0, 0, 0, 0.7);
         transition: opacity 400ms;
         visibility: visible;
-        /* Este valor se cambió de hidden a visible */
         opacity: 1;
-        /* Este valor se cambió de 0 a 1 */
+        margin-top: 30px;
     }
-}
+} */
 
-@media only screen and (max-width: 700px) {
+
+/* @media only screen and (max-width: 700px) {
     .overlay {
         position: fixed;
-        top: 40px;
+        top: 0px;
         bottom: 0;
         left: 0;
         right: 0;
         background: rgba(0, 0, 0, 0.7);
         transition: opacity 400ms;
         visibility: visible;
-        /* Este valor se cambió de hidden a visible */
         opacity: 1;
-        /* Este valor se cambió de 0 a 1 */
+        margin-top: 0;
     }
-}
+} */
 
 
 /* .overlay:target {
@@ -55,6 +54,7 @@
     width: 39%;
     height: 530px !important;
     padding: 1%;
+    top: 40px;
     border-radius: 15px;
     box-shadow: 0 0 5px #CCC;
     background: #FFF;
